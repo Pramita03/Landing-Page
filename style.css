@@ -1,68 +1,95 @@
-/* Umum */
+/* RESET DASAR */
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f8f9fa;
+  background: linear-gradient(to bottom right, #e9f0ff, #f0e9ff);
   color: #212529;
   margin: 0;
   padding: 0;
 }
 
-/* Header */
+/* HEADER */
 .profile-img {
   width: 150px;
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #0d6efd;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 4px solid #6f42c1;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Judul dan Deskripsi */
 h1, h2 {
   font-weight: 700;
+  color: #343a40;
 }
 
 .lead {
   font-size: 1.25rem;
-  color: #495057;
+  color: #555;
 }
 
-/* Kartu Layanan */
+/* TOMBOL */
+.btn {
+  font-weight: 500;
+  padding: 10px 22px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* KARTU LAYANAN */
 .service-card {
-  background-color: #fff;
-  border-radius: 12px;
-  padding: 20px;
-  border: 1px solid #dee2e6;
-  box-shadow: 0 0 10px rgba(0,0,0,0.03);
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 25px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease-in-out;
   height: 100%;
 }
 
 .service-card:hover {
-  box-shadow: 0 0 15px rgba(0,0,0,0.08);
-  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-6px);
 }
 
-/* Tautan di Kartu */
+/* TAUTAN DI REPO CARD */
 .service-card a {
   text-decoration: none;
-  color: #0d6efd;
+  color: #6f42c1;
+  font-weight: 600;
 }
 
 .service-card a:hover {
   text-decoration: underline;
 }
 
-/* Tombol */
-.btn {
-  font-weight: 500;
-  padding: 10px 20px;
-  border-radius: 8px;
+/* JUDUL BAGIAN */
+h2 {
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+  color: #4b0082;
 }
 
-/* Responsif */
+/* RESPONSIF */
 @media (max-width: 768px) {
   .lead {
     font-size: 1.1rem;
+  }
+
+  .btn {
+    padding: 8px 18px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
   }
 }
