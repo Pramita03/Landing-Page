@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Alvina Gusti Pramita | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -21,7 +22,8 @@
         <li class="nav-item"><a class="nav-link" href="#tentang">About</a></li>
         <li class="nav-item"><a class="nav-link" href="#keahlian">Skills</a></li>
         <li class="nav-item"><a class="nav-link" href="#pengalaman">Experience</a></li>
-        <li class="nav-item"><a class="nav-link" href="#proyek">Project</a></li>
+        <li class="nav-item"><a class="nav-link" href="#proyek">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kontak">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -30,9 +32,9 @@
 <!-- Tentang -->
 <section id="tentang" class="text-center py-5">
   <div class="container">
-    <img src="Foto.JPG" alt="Foto Profil" class="profile-img mb-3">
+    <img src="Foto.JPG" alt="Profile Photo" class="profile-img mb-3">
     <h1 class="fw-bold">Alvina Gusti Pramita</h1>
-    <p class="lead">Fresh Graduate Sistem Informasi | Data Analyst | Web Developer | Data & IT Enthusiast</p>
+    <p class="lead">Fresh Graduate in Information Systems | Data Analyst | Web Developer | Data & IT Enthusiast</p>
   </div>
 </section>
 
@@ -72,14 +74,14 @@
         <div class="service-card">
           <h5 class="fw-bold">MSIB - PT Orbit Ventura Indonesia</h5>
           <p>August - December 2023</p>
-          <p>Participated in the Kampus Merdeka internship program, focusing on machine learning fundamentals and their real-world application. I served as a team leader in a final project team, collaborating to develop an AI-based solution using supervised learning techniques, model deployment, and presentation skills.</p>
+          <p>Participated in the Kampus Merdeka internship program, focusing on machine learning fundamentals and their real-world application. Led a final project team to build an AI-based solution using supervised learning and model deployment.</p>
         </div>
       </div>
       <div class="col-md-6">
         <div class="service-card">
           <h5 class="fw-bold">UKM Jurnalistik - Universitas Muria Kudus</h5>
           <p>2023 - 2024</p>
-          <p>Served as Head of the Data Center and Cadre Division. My responsibilities included managing organizational data archives, coordinating internal training in photojournalism and public communication, and organizing recruitment events for new members.</p>
+          <p>Head of Data Center and Cadre Division. Managed archives, coordinated internal training in photojournalism and public communication, and organized recruitment events.</p>
         </div>
       </div>
     </div>
@@ -89,7 +91,7 @@
 <!-- Proyek -->
 <section id="proyek" class="py-5 bg-light">
   <div class="container">
-    <h2 class="text-center mb-4">📸 Project Galery</h2>
+    <h2 class="text-center mb-4">📸 Project Gallery</h2>
     <div class="row g-4" id="project-buttons"></div>
   </div>
 </section>
@@ -121,6 +123,18 @@
   </div>
 </div>
 
+<!-- Kontak -->
+<section id="kontak" class="py-5 text-center">
+  <div class="container">
+    <h2 class="mb-4">📬 Contact Me</h2>
+    <div class="d-flex justify-content-center gap-4">
+      <a href="https://www.linkedin.com/in/alvina-gusti-pramita-907492240/" class="text-dark fs-4" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:pramitaalvina25@gmail.com" class="text-dark fs-4"><i class="fas fa-envelope"></i></a>
+      <a href="https://wa.me/6285712544043" class="text-dark fs-4" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </div>
+</section>
+
 <!-- Footer -->
 <footer class="bg-dark text-white text-center py-3">
   <p class="mb-0">&copy; 2025 Alvina Gusti Pramita</p>
@@ -139,13 +153,13 @@
       folder: "web_inventory_coffee",
       name: "Coffee Inventory Management Web",
       count: 7,
-      description: "A coffee stock management system based on Random Forest predictions and report visualization."
+      description: "A coffee stock management system based on input data and report visualization."
     },
     {
       folder: "web_klasifikasi_siswa",
       name: "Student Classification Web",
       count: 3,
-      description: "A student performance classification application using the Decision Tree algorithm."
+      description: "A student performance classification application using the Decision Tree and KNN algorithm."
     },
     {
       folder: "web_perbaikan_jalan",
@@ -163,7 +177,7 @@
       folder: "web_sentiment",
       name: "Sentiment Analysis Web",
       count: 6,
-      description: "Public sentiment analysis on specific issues using an SVM model and TF-IDF vectorization."
+      description: "Public sentiment analysis on specific issues using an SVM & Naive Bayes model and TF-IDF vectorization."
     },
     {
       folder: "web_umkm_susu_kambing",
@@ -182,7 +196,7 @@
       <div class="project-thumbnail">
         <img src="https://raw.githubusercontent.com/Pramita03/Landing-Page/main/${p.folder}/1.png" alt="${p.name}">
         <h6 class="mt-2">${p.name}</h6>
-        <button class="btn btn-outline-dark btn-sm mt-2" onclick="showProjectModal(${index})">Deskripsi</button>
+        <button class="btn btn-outline-dark btn-sm mt-2" onclick="showProjectModal(${index})">Details</button>
       </div>
     `;
     buttonsContainer.appendChild(col);
