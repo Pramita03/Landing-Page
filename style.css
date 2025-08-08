@@ -104,30 +104,28 @@ body {
 
 /* Contact Section */
 .contact-section {
-  background-color: #e0f0ff;
+  background: linear-gradient(to right, #004a94, #007bff); /* gradasi biru modern */
   padding: 60px 20px;
   border-top: 1px solid #dce3ec;
-}
-
-.contact-section .section-title {
-  color: #00509d;
+  color: white;
 }
 
 .contact-form .form-control {
   border-radius: 8px;
-  border: 1px solid #00509d;
+  border: 1px solid #ffffff;
   padding: 12px;
   font-size: 1rem;
+  background-color: #eaf3ff;
 }
 
 .contact-form .form-control:focus {
-  border-color: #3399ff;
-  box-shadow: 0 0 0 0.15rem rgba(0, 80, 157, 0.25);
+  border-color: #ffffff;
+  box-shadow: 0 0 0 0.15rem rgba(255, 255, 255, 0.3);
 }
 
 .contact-form .btn {
-  background-color: #00509d;
-  color: #fff;
+  background-color: #ffffff;
+  color: #00509d;
   font-weight: 600;
   padding: 10px 24px;
   border-radius: 6px;
@@ -136,18 +134,18 @@ body {
 }
 
 .contact-form .btn:hover {
-  background-color: #003b73;
+  background-color: #e6f0ff;
 }
 
 #contact a {
-  color: #00509d;
+  color: #ffffff;
   margin: 0 10px;
   font-size: 1.2rem;
   transition: color 0.3s ease;
 }
 
 #contact a:hover {
-  color: #003b73;
+  color: #d1e3ff;
 }
 
 /* Footer */
