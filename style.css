@@ -104,7 +104,7 @@ body {
 
 /* Contact Section */
 .contact-section {
-  background: linear-gradient(135deg, #e3f2fd, #f5faff); /* Soft blue gradient */
+  background-color: #00509d !important;
   padding: 60px 20px;
   color: #333;
 }
