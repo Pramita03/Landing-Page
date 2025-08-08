@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f2f6fc;
+  background-color: #f4f6f9;
   color: #1c1c1e;
   margin: 0;
   padding: 0;
@@ -16,24 +16,24 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #ffffff !important;
-  border-bottom: 1px solid #e0e0e0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  background-color: #2c3e50 !important;
+  border-bottom: 1px solid #1f2d3a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .navbar-brand {
-  color: #0077ff !important;
+  color: #ecf0f1 !important;
   font-weight: bold;
   font-size: 1.5rem;
 }
 
 .nav-link {
-  color: #1c1c1e !important;
+  color: #ecf0f1 !important;
   transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #0077ff !important;
+  color: #bdc3c7 !important;
 }
 
 /* Profile Image */
@@ -42,7 +42,7 @@ body {
   height: 160px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid #0077ff;
+  border: 5px solid #3498db;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -50,7 +50,7 @@ body {
 .section-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #0d1b2a;
+  color: #2c3e50;
   margin-bottom: 20px;
 }
 
@@ -61,17 +61,17 @@ body {
   padding: 24px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
-  border-left: 5px solid #0077ff;
+  border-left: 5px solid #3498db;
 }
 
 .service-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0, 119, 255, 0.15);
+  box-shadow: 0 10px 25px rgba(52, 152, 219, 0.15);
 }
 
 /* Experience Cards */
 #pengalaman .service-card {
-  border-left: 5px solid #003566;
+  border-left: 5px solid #1a252f;
 }
 
 /* Project Thumbnails */
@@ -93,7 +93,7 @@ body {
 .project-thumbnail h6 {
   margin-top: 12px;
   font-weight: 600;
-  color: #0d1b2a;
+  color: #2c3e50;
 }
 
 .project-thumbnail:hover {
@@ -103,9 +103,9 @@ body {
 
 /* Contact Section */
 .contact-section {
-  background-color: #f0f4ff;
+  background-color: #ecf0f1;
   padding: 60px 20px;
-  border-top: 1px solid #dfe6f1;
+  border-top: 1px solid #ccd6dd;
 }
 
 .contact-form .form-control {
@@ -116,12 +116,12 @@ body {
 }
 
 .contact-form .form-control:focus {
-  border-color: #0077ff;
-  box-shadow: 0 0 0 0.15rem rgba(0, 119, 255, 0.25);
+  border-color: #3498db;
+  box-shadow: 0 0 0 0.15rem rgba(52, 152, 219, 0.25);
 }
 
 .contact-form .btn {
-  background-color: #0077ff;
+  background-color: #2c3e50;
   color: #fff;
   font-weight: 600;
   padding: 10px 24px;
@@ -131,24 +131,24 @@ body {
 }
 
 .contact-form .btn:hover {
-  background-color: #0056cc;
+  background-color: #1f2d3a;
 }
 
 /* Social Links */
 #contact a {
-  color: #0077ff;
+  color: #2c3e50;
   margin: 0 10px;
   font-size: 1.2rem;
   transition: color 0.3s ease;
 }
 
 #contact a:hover {
-  color: #004ea8;
+  color: #34495e;
 }
 
 /* Footer */
 footer {
-  background-color: #0d1b2a;
+  background-color: #1f2d3a;
   color: #ffffff;
   text-align: center;
   padding: 20px 0;
