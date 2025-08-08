@@ -28,11 +28,13 @@ body {
 }
 
 .nav-link {
-  color: #1c1c1e !important;
+  color: #002b5c !important;
+  font-weight: 500;
   transition: color 0.3s ease;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link.active {
   color: #00509d !important;
 }
 
