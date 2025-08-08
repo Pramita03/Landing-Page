@@ -1,21 +1,17 @@
-/* Reset dan dasar */
 body {
   font-family: 'Segoe UI', sans-serif;
   background: #fdfcff;
   color: #333;
-  line-height: 1.6;
   margin: 0;
   padding: 0;
 }
 
-/* Container */
 .container {
   max-width: 1200px;
   margin: auto;
   padding: 20px;
 }
 
-/* Gaya Gambar Profil */
 .profile-img {
   width: 150px;
   height: 150px;
@@ -24,12 +20,11 @@ body {
   border: 4px solid #ccc;
 }
 
-/* Kartu Layanan */
 .service-card {
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 10px;
-  transition: transform 0.3s;
+  transition: 0.3s;
   background-color: #fff;
 }
 
@@ -38,37 +33,22 @@ body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Galeri Proyek */
 .project-thumbnail {
   border: 1px solid #ddd;
   padding: 10px;
   border-radius: 10px;
-  transition: 0.3s;
   background-color: #fff;
-  text-align: center;
-  height: 100%;
-}
-
-.project-thumbnail img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.project-thumbnail h6 {
-  font-size: 14px;
-  margin-top: 10px;
+  transition: 0.3s;
 }
 
 .project-thumbnail:hover {
   transform: scale(1.02);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
 }
 
-.carousel-box {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 15px;
-  background: #fff;
+.project-thumbnail img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
 }
