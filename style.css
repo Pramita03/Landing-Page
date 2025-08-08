@@ -1,43 +1,78 @@
-/* Base Styling */
+/* ========== Global ========== */
 body {
   font-family: 'Segoe UI', sans-serif;
   background: #f8fbff; /* soft white-blue */
   color: #222;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
 }
 
-/* Container */
+h1, h2, h3, h4, h5, h6 {
+  color: #0d1b2a;
+  font-weight: 700;
+}
+
+a {
+  color: #0d1b2a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1b9aaa;
+  text-decoration: underline;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
   padding: 20px;
 }
 
-/* Profile Image */
+/* ========== Navbar ========== */
+.navbar {
+  background-color: #ffffff !important;
+}
+
+.navbar .navbar-brand {
+  color: #1b9aaa;
+  font-size: 1.25rem;
+}
+
+.navbar .nav-link {
+  color: #0d1b2a !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: #1b9aaa !important;
+}
+
+/* ========== Profile ========== */
 .profile-img {
   width: 150px;
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #1b9aaa; /* vibrant blue */
+  border: 4px solid #1b9aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Service Card */
+/* ========== Cards (Skills & Experience) ========== */
 .service-card {
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 10px;
+  transition: all 0.3s ease;
   background-color: #ffffff;
-  transition: 0.3s ease;
 }
 
 .service-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
 
-/* Project Thumbnail */
+/* ========== Project Thumbnails ========== */
 .project-thumbnail {
   border: 1px solid #ddd;
   padding: 10px;
@@ -47,8 +82,8 @@ body {
 }
 
 .project-thumbnail:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 15px rgba(27, 154, 170, 0.2);
+  transform: scale(1.03);
+  box-shadow: 0 0 16px rgba(27, 154, 170, 0.15);
 }
 
 .project-thumbnail img {
@@ -58,20 +93,16 @@ body {
   border-radius: 5px;
 }
 
-/* Contact Section Links */
-#kontak a {
-  color: #0d1b2a;
-  transition: 0.2s;
+/* ========== Contact Section ========== */
+.contact-section {
+  background-color: #f0faff;
+  border-top: 2px solid #dceef4;
 }
 
-#kontak a:hover {
-  color: #1b9aaa;
-}
-
-/* Contact Form */
 .contact-form .form-control {
   border-radius: 8px;
   border: 1px solid #ccc;
+  padding: 10px 14px;
 }
 
 .contact-form .form-label {
@@ -83,29 +114,33 @@ body {
   background-color: #1b9aaa;
   border: none;
   font-weight: 600;
+  transition: background-color 0.3s ease;
 }
 
 .contact-form .btn-primary:hover {
   background-color: #10707d;
 }
 
-/* Headings */
-h1, h2, h3, h4, h5 {
+/* Contact Icons */
+#contact a {
   color: #0d1b2a;
+  transition: 0.2s;
 }
 
-/* Navbar or Footer (if any) */
-.navbar, footer {
+#contact a:hover {
+  color: #1b9aaa;
+}
+
+/* ========== Footer ========== */
+footer {
   background-color: #0d1b2a;
   color: #fff;
 }
 
-.navbar .nav-link,
 footer a {
   color: #fff;
 }
 
-.navbar .nav-link:hover,
 footer a:hover {
   color: #1b9aaa;
 }
