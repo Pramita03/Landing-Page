@@ -52,3 +52,7 @@ body {
   object-fit: cover;
   border-radius: 5px;
 }
+
+#kontak a:hover {
+  color: #0d6efd;
+}
