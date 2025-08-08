@@ -79,6 +79,28 @@ h2 {
   color: #4b0082;
 }
 
+/* --- GALERI GAMBAR PROYEK --- */
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.project-gallery img {
+  width: calc(33.333% - 10px);
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  object-fit: cover;
+}
+
+.project-gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
 /* RESPONSIF */
 @media (max-width: 768px) {
   .lead {
@@ -91,5 +113,15 @@ h2 {
 
   h2 {
     font-size: 1.5rem;
+  }
+
+  .project-gallery img {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 480px) {
+  .project-gallery img {
+    width: 100%;
   }
 }
