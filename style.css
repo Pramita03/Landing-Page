@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f2f6fc;
+  background-color: #f5faff;
   color: #1c1c1e;
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@ body {
 }
 
 .navbar-brand {
-  color: #003566 !important;
+  color: #002b5c !important;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #0077b6 !important;
+  color: #00509d !important;
 }
 
 /* Profile Image */
@@ -42,7 +42,7 @@ body {
   height: 160px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid #0077b6;
+  border: 5px solid #00509d;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -50,7 +50,7 @@ body {
 .section-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #0d1b2a;
+  color: #002b5c;
   margin-bottom: 20px;
 }
 
@@ -61,17 +61,17 @@ body {
   padding: 24px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
-  border-left: 5px solid #0077b6;
+  border-left: 5px solid #00509d;
 }
 
 .service-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0, 119, 182, 0.15);
+  box-shadow: 0 10px 25px rgba(0, 80, 157, 0.15);
 }
 
 /* Experience Cards */
 #pengalaman .service-card {
-  border-left: 5px solid #003566;
+  border-left: 5px solid #002b5c;
 }
 
 /* Project Thumbnails */
@@ -93,7 +93,7 @@ body {
 .project-thumbnail h6 {
   margin-top: 12px;
   font-weight: 600;
-  color: #0d1b2a;
+  color: #002b5c;
 }
 
 .project-thumbnail:hover {
@@ -103,9 +103,9 @@ body {
 
 /* Contact Section */
 .contact-section {
-  background-color: #f7f9fb;
+  background-color: #f5faff;
   padding: 60px 20px;
-  border-top: 1px solid #dfe6f1;
+  border-top: 1px solid #dce3ec;
 }
 
 .contact-form .form-control {
@@ -116,12 +116,12 @@ body {
 }
 
 .contact-form .form-control:focus {
-  border-color: #003566;
-  box-shadow: 0 0 0 0.15rem rgba(0, 53, 102, 0.25);
+  border-color: #00509d;
+  box-shadow: 0 0 0 0.15rem rgba(0, 80, 157, 0.25);
 }
 
 .contact-form .btn {
-  background-color: #003566;
+  background-color: #00509d;
   color: #fff;
   font-weight: 600;
   padding: 10px 24px;
@@ -131,24 +131,24 @@ body {
 }
 
 .contact-form .btn:hover {
-  background-color: #001d3d;
+  background-color: #003b73;
 }
 
 /* Social Links */
 #contact a {
-  color: #003566;
+  color: #00509d;
   margin: 0 10px;
   font-size: 1.2rem;
   transition: color 0.3s ease;
 }
 
 #contact a:hover {
-  color: #001d3d;
+  color: #003b73;
 }
 
 /* Footer */
 footer {
-  background-color: #0d1b2a;
+  background-color: #002b5c;
   color: #ffffff;
   text-align: center;
   padding: 20px 0;
